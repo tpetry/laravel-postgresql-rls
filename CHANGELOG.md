@@ -1,8 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/tpetry/laravel-postgresql-rls/compare/v0.1.0...1.x)
+## [Unreleased](https://github.com/tpetry/laravel-postgresql-rls/compare/v1.0.0...1.x)
 
 
-## [v0.1.0](https://github.com/tpetry/laravel-postgresql-rls/compare/...v0.1.0) - 202x-xx-xx
+## [v1.0.0](https://github.com/tpetry/laravel-postgresql-rls/releases/tag/v1.0.0) - 2026-11-16
 
-Initial pre-release.
+Initial release:
+- `Rls::authenticated()`, `Rls::authenticateTransaction()` and `Rls::deauthenticateTransaction()`
+- `Rls::shouldBeStrict()`
+- `RlsIdentityResolver::register()`
